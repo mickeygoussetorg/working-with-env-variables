@@ -21,7 +21,7 @@ jobs:
       - name: JSON to variables
         uses: antifree/json-to-variables@v1.0.1
         with:
-          filename: ${{github.workspace}}/env-vars.json
+          filename: ${{github.workspace}}\env-vars.json
           prefix: myvar
 
       # Runs a set of commands using the runners shell
